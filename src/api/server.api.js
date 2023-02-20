@@ -1,8 +1,7 @@
 import axios from 'axios'
 
 const serverApi = axios.create({
-    //baseURL: ' https://sprout-backend-example.free.beeceptor.com'
-    baseURL: 'http://localhost:3000'
+    baseURL: 'https://flight-options-howdy-api.onrender.com'
 })
 
 export default serverApi;
